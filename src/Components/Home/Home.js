@@ -11,6 +11,7 @@ const Home = () => {
      dispatch(fetchAsyncShows())
 
   }, [dispatch]);
+  console.log(dispatch,"this is dispatch");
   return (
     <>
       <div>
